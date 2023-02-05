@@ -1,5 +1,7 @@
 package com.dalixinc.components;
 
+import java.util.List;
+
 /**
  * @author Dale © 2023
  *
@@ -9,4 +11,9 @@ package com.dalixinc.components;
  *
  */
 public class Project {
+    private List<Task> taskList;
+    private long grandTotal;
+    private String projectCode;
+    private String projectName;
+
 }
