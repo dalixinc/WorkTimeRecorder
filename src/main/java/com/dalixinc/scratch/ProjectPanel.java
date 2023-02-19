@@ -7,6 +7,11 @@ public class ProjectPanel extends JPanel {
 
     public ProjectPanel() {
         super();
+        FlowLayout layout = new FlowLayout(FlowLayout.LEFT);
+        setLayout(layout);
+
+        setBackground(Color.LIGHT_GRAY);
+
         JLabel lblName = new JLabel("Project");
         JTextField tfProjectName = new JTextField(50);
         JTextField tfProjectCode = new JTextField(10);
